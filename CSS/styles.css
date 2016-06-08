@@ -39,3 +39,50 @@
 .navbar-header button.navbar-toggle {
     clear: both;
 }
+
+/***** SideMenu *****/
+#sideMenu {
+    color: blueviolet;
+    font-size: 1.5em;
+    height: auto;
+    width: auto;
+   
+}
+
+/* Media Query */
+/* Large Devises */
+@media (min-width: 1200px){
+    .textImage {
+        background-color: bisque;
+        padding: 25px 0px 25px 0px;
+    }   
+    #sideMenu {
+        background-color: bisque;
+        height: 709px;
+    }
+}
+
+/* Medium Devises */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .textImage {
+        padding: 90px 0px 90px 0px;
+        background-color: bisque;
+    }   
+     #sideMenu {
+        background-color: bisque;
+        height: 583px;
+    }
+}
+
+/* Small Devises */
+@media (min-width: 768px) and (max-width: 991px) {
+     #sideMenu {
+         background-color: bisque;
+         height: 447px;
+    }
+}
+
+/* ExSmall Devises */
+@media (max-width: 767px) {
+    
+}
