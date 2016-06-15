@@ -77,6 +77,10 @@
     padding-top: 35px;
     
 }
+.textScroll {
+    font-size: 2em;
+    color: brown;
+}
 
 /* Footer */
 .panel-footer {
