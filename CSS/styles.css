@@ -74,12 +74,19 @@
     font-size: 1em;
     color: brown;
     text-align: center;
-    padding-top: 35px;
+    padding-top: 45px;
     
 }
 .textScroll {
     font-size: 2em;
     color: brown;
+}
+.carousel-inner {
+    text-align: center;
+}
+
+.carousel .item > img {
+    display: inline-block;
 }
 
 /* Footer */
